@@ -29,6 +29,13 @@ The RSS(Really Simple Syndication) Feed Reader is a cross-platform application b
 </p>
   
 - Web
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/weblogin.jpg"  style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/websignup.jpg"  style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/webforgotpassword.jpg"  style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/webhomepage.jpg"  style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/webhomepage(darkmode).jpg"  style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/9db737c2287f91a4380ae794cc1ccd8cfb2c3547/screenshots/webaddlink.jpg"  style="margin-right: 40px">
+
   
 
 ## Tech Stack
