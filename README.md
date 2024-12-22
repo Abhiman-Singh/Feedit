@@ -18,6 +18,10 @@ The RSS(Really Simple Syndication) Feed Reader is a cross-platform application b
 - **Persistent Storage:** Backend data stored in Firebase for reliable access and synchronization.
 
 ## Screenshots
+- Android and IOS
+  
+- Web
+  
 
 ## Tech Stack
 - **Flutter:** Cross-platform development framework.
