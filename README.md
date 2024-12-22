@@ -19,6 +19,14 @@ The RSS(Really Simple Syndication) Feed Reader is a cross-platform application b
 
 ## Screenshots
 - Android and IOS
+<p>
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/handsetlogin.jpg" width="236" height="500" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/handsetsignup.jpg" width="236" height="500" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/handsetforgotpassword.jpg" width="236" height="500" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/handsethomepage.jpg" width="236" height="500" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/handsethomepage(darkmode).jpg" width="236" height="500" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Feedit/blob/f6bad52d08290add8a482ebdce0eab3b26a46c32/screenshots/hansetaddlink.jpg" width="236" height="500" style="margin-right: 40px">
+</p>
   
 - Web
   
