@@ -1,6 +1,9 @@
 # FeedIt
 Really Simple Syndication(RSS) Feed Reader App
 
+## Link
+- https://rssdatabase-e9c06.web.app/
+
 ## Overview
 
 The RSS(Really Simple Syndication) Feed Reader is a cross-platform application built using Flutter, designed to fetch and categorize RSS feed data into text, audio, and video types. This app allows users to view headlines, images, and small descriptions for each feed, manage RSS links, and enjoy seamless functionality across Windows, Android, iOS, and web platforms.
@@ -13,6 +16,8 @@ The RSS(Really Simple Syndication) Feed Reader is a cross-platform application b
 - **Responsive Design:** Optimized for multiple platforms.
 - **Dark and Light Mode:** Toggle between dark and light themes using a theme button.
 - **Persistent Storage:** Backend data stored in Firebase for reliable access and synchronization.
+
+## Screenshots
 
 ## Tech Stack
 - **Flutter:** Cross-platform development framework.
@@ -41,12 +46,8 @@ The RSS(Really Simple Syndication) Feed Reader is a cross-platform application b
 
 ## Usage
 - **Login/Sign-Up:** Use Firebase Authentication to log in or sign up.
-- **Add RSS Links:**
-         - Click the floating action button to open the pop-up window.
-         - Enter a custom name and URL for the RSS feed.
-- **View Feeds:**
-         - Feeds are categorized into text, audio, and video tabs.
-         - Browse feeds with headline, image, and description displayed on cards.
+- **Add RSS Links:** Click the floating action button to open the pop-up window.Enter a custom name and URL for the RSS feed.
+- **View Feeds:** Feeds are categorized into text, audio, and video tabs.Browse feeds with headline, image, and description displayed on cards.
 - **Manage Links:** Delete unwanted RSS links via the pop-up window.
 - **Toggle Theme:** Use the theme button to switch between dark and light modes.
 
