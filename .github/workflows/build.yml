@@ -1,27 +1,44 @@
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+
+name: Build My Apps
 
 jobs:
   build:
+    name: Build and Release new apk
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '11'
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.13.0" # Specify a known stable version
+          channel: 'stable'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --split-per-abi
 
-      - name: Upload artifacts
+      - name: Upload APKs as Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: package
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: flutter-apks
+          path: build/app/outputs/flutter-apk/*.apk
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build/app/outputs/flutter-apk/*.apk"
+          tag: v0.0.1
+          token: ${{ secrets.GITHUB_TOKEN }}
