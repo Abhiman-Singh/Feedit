@@ -4,7 +4,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # Use Ubuntu 22.04 for better compatibility
+    runs-on: ubuntu-22.04  # Switch to Ubuntu 22.04 for better compatibility
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
